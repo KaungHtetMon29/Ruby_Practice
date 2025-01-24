@@ -1,0 +1,1 @@
+puts "the statement modifier is a way to write a statement on one line" if true && true
