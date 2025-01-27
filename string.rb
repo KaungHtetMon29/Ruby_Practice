@@ -24,3 +24,18 @@ puts firstname.reverse
 
 firstname.capitalize!
 puts firstname
+
+puts firstname.chars
+
+arr=["k","h","m"]
+p arr.join
+
+p firstname.count("ar")
+
+p "this is index"
+
+p firstname[0]
+p firstname
+p firstname.rindex("r")
+p firstname.delete("r")
+p firstname.chars
