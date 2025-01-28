@@ -1,4 +1,7 @@
 class Animal
+  # attr_reader :name, :type
+  # attr_writer :name, :type
+  attr_accessor :name, :type
   def initialize(name,type)
     @name=name
     @type=type
@@ -14,9 +17,20 @@ class Animal
   def checkClass
     puts "Check class? #{self.class}"
   end
+
+  # def name
+  #   @name 
+  # end
+
+  # def type
+  #   @type
+  # end
 end
+
 
 dog= Animal.new("dog","mammal")
 puts dog.output
 puts dog.checkIfnil
 puts dog.checkClass
+puts dog.name
+puts dog.type
